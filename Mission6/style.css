@@ -1,0 +1,67 @@
+body {
+    margin: 100px;
+
+}
+
+.d1 {
+
+    float: left;
+}
+
+.d2 {
+
+    float: right;
+    padding-right: 500px;
+}
+
+.d3 {
+
+    float: left;
+}
+
+.d4 {
+
+    float: right;
+    padding-right: 632px;
+}
+
+.d5 {
+
+    float: left;
+}
+
+.d6 {
+
+    float: right;
+    padding-right: 130px;
+}
+
+.d7 {
+
+    float: left;
+}
+
+.d8 {
+
+    float: right;
+    padding-right: 800px;
+}
+
+.d9 {
+
+    float: left;
+}
+
+.d10 {
+
+    float: right;
+    padding-right: 930px;
+}
+
+section {
+    clear: both;
+}
+
+img {
+    height: 200px;
+}
