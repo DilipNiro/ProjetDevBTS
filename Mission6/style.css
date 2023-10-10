@@ -1,67 +1,33 @@
 body {
-    margin: 100px;
-
+  margin-right: 300px;
+  margin-left: 300px;
+  border: 5px solid black;
+  border-radius: 30px;
 }
 
-.d1 {
-
-    float: left;
+.box:first-of-type {
+  background-color: grey;
+  box-shadow: 5px 5px 5px black;
 }
 
-.d2 {
-
-    float: right;
-    padding-right: 500px;
+.box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.d3 {
 
-    float: left;
-}
+/* .container {
+    border: 5px solid green;
+    border-radius: 30px;
+} */
 
-.d4 {
-
-    float: right;
-    padding-right: 632px;
-}
-
-.d5 {
-
-    float: left;
-}
-
-.d6 {
-
-    float: right;
-    padding-right: 130px;
-}
-
-.d7 {
-
-    float: left;
-}
-
-.d8 {
-
-    float: right;
-    padding-right: 800px;
-}
-
-.d9 {
-
-    float: left;
-}
-
-.d10 {
-
-    float: right;
-    padding-right: 930px;
-}
-
-section {
-    clear: both;
-}
 
 img {
-    height: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.box {
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
 }
