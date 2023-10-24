@@ -5,6 +5,7 @@ body {
 table,
 td {
     border: 1px solid #333;
+    text-align: center;
 }
 
 thead,
@@ -29,6 +30,7 @@ button {
     border-radius: 30px;
     width: 95%;
     height: 45px;
+    text-align: center;
 
 }
 
