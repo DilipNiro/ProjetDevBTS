@@ -1,36 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sommaire</title>
-</head>
-<body bgcolor="33FFF3">
-	
-	<h1><u>Sommaire : </u></h1>
-<ol>
-	<li><h2><a href="PageAccueil.html"> Page acceuil</a></h2></li>
-	<li><h2><a href="page2.html"> Page 2</a></h2></li>
-	<li><h2><a href="page3.html"> Liste des articles</a></h2></li>
-	<li><h2><a href="identification.html">Indentification</a></h2></li>
-	<li><h2><a href="formulaire.html">Formulaire</a></h2></li>
-	<li><h2><a href="exerciceformulaire.html">Exo formulaire</a></h2></li>
-	<li><h2><a href="TP4/index.html">TP4</a></h2></li>
-	<li><h2><a href="TP5-css/tp5_ex1.html">TP5-ex1</a></h2></li>
-	<li><h2><a href="TP5-css/tp5_2.html">TP5-ex2</a></h2></li>
-	<li><h2><a href="TP5-css/tp5_3.html">TP5-ex3</a></h2></li>
-	<li><h2><a href="qcm-form.html">Mission 1</a></h2></li>
-	<li><h2><a href="TP6/ex_section1.html">TP6-ex1</a></h2></li>
-	<li><h2><a href="TP6/tp-float.html">TP6-exFloat</a></h2></li>
-	<li><h2><a href="Mission6/CV.html">Mission 2</a></h2></li>
-	<li><h2><a href="TP7/tp7.html">TP7-exJavaScript</a></h2></li>
-	<li><h2><a href="TP7/calculatrice.html">Calculatrice JS</a></h2></li>
-	<li><h2><a href="TP8/Facture.html">Facture JS</a></h2></li>
-	<li><h2><a href="TP8/tableau.html">Tableau JS</a></h2></li>
-	<li><h2><a href="Certifications/certification.html">Certifications</a></h2></li>
-</ol>
+<html lang="en">
 
-	
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Responsive</title>
+	<link rel="stylesheet" href="menu-style.css">
+</head>
+
+<body>
+	<nav>
+		<label for="menu-mobile" class="menu-mobile">Menu</label>
+		<input type="checkbox" name="menu-mobile" id="button">
+		<ul>
+			<li class="menu-html"><a href="#">HTML & CSS</a>
+				<ul class="submenu">
+					<li><a href="PageAccueil.html">TP1</a> </li>
+					<li><a href="formulaire.html">TP2</a></li>
+					<li><a href="qcm-form.html">TP3</a></li>
+					<li><a href="TP4/index.html">TP4</a></li>
+					<li><a href="TP5-css/tp5_ex1.html">TP5</a></li>
+					<li><a href="TP6/ex_section1.html">TP6</a></li>
+				</ul>
+			</li>
+
+			<li class="menu-css"><a href="#">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="TP7/calculatrice.html">TP1</a> </li>
+					<li><a href="TP8/Facture.html">TP2</a></li>
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> Bases de données</a>
+				<ul class="submenu">
+
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> PHP </a>
+				<ul class="submenu">
+
+				</ul>
+			</li>
+			<li class="menu-js"><a href="#"> Missions</a>
+				<ul class="submenu">
+					<li><a href="qcm-form.html">Mission 1</a> </li>
+					<li><a href="Mission6/CV.html">Mission 2 </a></li>
+
+				</ul>
+			</li>
+			<li class="menu-contact"><a href="Certifications/certification.html">Certifications</a></li>
+		</ul>
+	</nav>
 
 </body>
+
 </html>
