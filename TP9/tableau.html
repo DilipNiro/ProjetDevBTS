@@ -42,7 +42,7 @@
             var name = document.getElementById("nom").value;
             var age = document.getElementById("age").value;
 
-            if (name == "" || age == "" || age <= 10 || age >= 20) {
+            if (name == "" || age == "" || age < 10 || age > 20) {
                 alert("un des deux éléments n'est pas complet ou valide");
 
             } else {
