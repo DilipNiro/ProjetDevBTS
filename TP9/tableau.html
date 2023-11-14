@@ -42,10 +42,15 @@
             var name = document.getElementById("nom").value;
             var age = document.getElementById("age").value;
 
-            if (name == "" || age == "" || age < 10 || age > 20) {
+            if (name == "" || age == "") {
                 alert("un des deux éléments n'est pas complet ou valide");
 
-            } else {
+            } else if (age < 10 || age > 20) {
+                alert("L'âge n'est pas valide");
+            }
+
+
+            else {
                 var table = document.getElementById("myTable");
                 var newRow = table.insertRow(-1);
                 var cell1 = newRow.insertCell(0);
